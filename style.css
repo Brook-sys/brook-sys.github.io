@@ -145,6 +145,10 @@ body{
     #cabecalho{
         padding: 25px 5px;
     }
+    #cabecalho h1{
+        visibility: hidden;
+        width: 0PX;
+    }
     .variosprojetos{
         flex-direction: column;
         align-items: center;
