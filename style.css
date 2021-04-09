@@ -20,7 +20,7 @@ body{
 #cabecalho h1{
     font-size: 25px;
     font-weight: 800;
-    margin: 0px 0px 5px 10px;
+    margin: 0px 10px 5px 10px;
 }
 #cabecalho button{
     margin-left: auto;
@@ -33,4 +33,131 @@ body{
     padding: 8px;
     border-radius: 8px;
     cursor: pointer;
+}
+#conteudo{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.aba{
+    width: 100%;
+    margin-top: 50px;
+}
+.aba h2{
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.variosprojetos{
+    display: flex;
+    flex-direction:row;
+    
+}
+.projeto{
+    background-color: #171717;
+    margin: 0px 15px;
+    min-height: 170px;
+    border-radius: 6px;
+    padding: 30px;
+    width: calc(33.3333%);
+}
+.projeto div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.projeto div h3{
+    font-weight: 800;
+    margin-left: 20px;
+}
+.projeto p{
+    font-size: 17px;
+}
+#rodape a{
+    font-size: 15px;
+}
+
+@media(max-width: 1000px){
+    #conteudo{
+        width: 100%;
+    }
+}
+@media(max-width: 785px){
+    *{
+        font-size: 15px;
+    }
+    #cabecalho img{
+        width: 40px;
+        height: 40px;
+    }
+    #cabecalho h1{
+        font-size: 20px;
+    }
+    #cabecalho button{
+        font-size: 12px;
+        padding: 6px;
+        border-radius: 6px;
+    }
+    .aba{
+        margin-top: 30px;
+    }
+    .aba h2{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .projeto{
+        padding: 20px;
+        margin: 0px 10px;
+    }
+    .projeto p{
+        font-size: 13px;
+    }
+    .projeto img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media(max-width: 585px){
+    *{
+        font-size: 15px;
+    }
+    #cabecalho{
+        padding: 25px 10px;
+    }
+    #cabecalho h1{
+        font-size: 15px;
+    }
+    .projeto{
+        padding: 10px;
+        margin: 0px 6px;
+    }
+    .projeto p{
+        font-size: 11px;
+    }
+    .projeto img{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media(max-width: 475px){
+    .variosprojetos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projeto{
+        margin: 15px 0px;
+        min-height: 170px;
+        border-radius: 6px;
+        padding: 30px;
+        width: 50%;
+    }
+    .projeto p{
+        font-size: 17px;
+    }
+    .projeto img{
+        width: 50px;
+        height: 50px;
+    }
 }
