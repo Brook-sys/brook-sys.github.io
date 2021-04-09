@@ -142,6 +142,9 @@ body{
     }
 }
 @media(max-width: 475px){
+    #cabecalho{
+        padding: 25px 5px;
+    }
     .variosprojetos{
         flex-direction: column;
         align-items: center;
