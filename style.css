@@ -143,11 +143,11 @@ body{
 }
 @media(max-width: 475px){
     #cabecalho{
-        padding: 25px 5px;
+        padding: 10px 30px;
     }
     #cabecalho h1{
         visibility: hidden;
-        width: 0PX;
+        width: 0px;
     }
     .variosprojetos{
         flex-direction: column;
