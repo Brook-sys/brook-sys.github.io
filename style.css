@@ -34,6 +34,9 @@ body{
     border-radius: 8px;
     cursor: pointer;
 }
+#cabecalho button:hover{
+    background-color: #e6e6e6;
+}
 #conteudo{
     width: 80%;
     margin: auto;
